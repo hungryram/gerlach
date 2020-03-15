@@ -1,11 +1,7 @@
-{{ partial "head.html" . }}
-{{ partial "header.html" . }}
+{{ define "main" }}
 
 {{ .Title }}
 {{ .Content }}
 
-{{ .Description }}
-<br>
-<a href="/">Home</a>
 
-{{ partial "footer.html" . }}
+{{ end }}

@@ -5,8 +5,26 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <!-- Netlify Idetity -->
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- Tailwind CSS -->
     <link rel="stylesheet" href="{{.Site.BaseURL}}css/styles.css">
+    <!-- Tailwind CSS -->
+
+    {{ with .Title }}
+    <title>{{ . | title }}</title>
+    {{ end }}
+
+    {{ with .Params.metadescription }}
+    <meta name="description" content="{{ . }}">
+    {{ end }}
+    
+    
+    <style>
+        #menu-toggle:checked + #menu {
+          display: block;
+        }
+    </style>
 </head>
 <body>

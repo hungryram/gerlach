@@ -1,9 +1,7 @@
-{{ partial "head.html" . }}
-{{ partial "header.html" . }}
+{{ define "main" }}
 
-<ul>
 {{ range .Pages }}
-<li><a href="{{ .URL }}">{{.Title}}</a></li>
+<a href="{{ .URL }}">{{ .Title }}</a><br><br>
 {{ end }}
-</ul>
-{{ partial "footer.html" . }}
+
+{{ end }}
