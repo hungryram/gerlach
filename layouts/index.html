@@ -1,13 +1,30 @@
-{{ partial "head.html" . }}
+{{ define "main"}}
+<header>
+    <h1 class="logo">S.S Logo</h1>
+    <div class="header-menu">
+        <span>MENU</span>
+    </div>
+</header>
 
-{{ partial "header.html" . }}
+<div class="carousel__container">
+<div class="hero-carousel">
+    <div>
+        <p>This is Hawaii<br>Come visit the beautiful beaches</p>
+        <h1>Hawaii</h1>
+        <img class="img-slide" src="{{.Site.BaseURL}}images/hawaii.jpg"/>
+    </div>
+    <div>
+        <p>This is what nature has to offer<br>Come book a villa</p>
+        <h1>Nature</h1>
+        <img class="img-slide" src="{{.Site.BaseURL}}images/nature.jpg"/>
+    </div>
+    <div>
+        <p>Careful of the rocks<br>or you will die</p>
+        <h1>Rocks</h1>
 
+        <img class="img-slide" src="{{.Site.BaseURL}}images/rocks.jpg"/>
+    </div>
+  </div>
 
-{{ .Params.title }}<br>
-{{ .Params.description }}
-<br>
-
-<a href="{{.Site.BaseURL}}blog">Blog</a><br>
-<a href="{{.Site.BaseURL}}about">About</a><br>
-
-{{ partial "footer.html" . }}
+</div>
+{{end}}
