@@ -3,8 +3,69 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+body {
+    background: url("../images/bg.png") repeat;
+    background-size: contain;
+}
+
+#section__container {
+    padding: 70px 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header-bar {
+    background-color: #000000;
+    height: 10px;
+}
+
 header {
-    margin-left: 3%;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 11px #a2a2a2;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.header-cta a {
+    background-color: #282828;
+    padding: 20px 40px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 2px 1px 13px black;
+}
+
+div.logo,
+.header-cta,
+nav {
+    flex: 1;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .img-slide {
@@ -13,67 +74,139 @@ header {
     z-index: 5;
     margin-left: 10%;
 }
+
+#hero__container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(255,255,255, 0.3), rgba(255,255,255, 0.5)), 
+        url("../images/homeview.jpg") no-repeat center;
 }
 
-.hero__container {
-    width: 95%;
-    margin: 0 auto;
+.hero-content {
+    width: 50%;
+    text-align: left;
 }
 
-.carousel__container {
-    width: 80%;
-    position: absolute;
-    right: 40px;
+.hero-content h1 {
+    color: #000;
+    font-size: 3em;
 }
 
-
-.hero-carousel h1 {
-    font-size: 13em;
-    z-index: 100;
-    position: relative;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
+.hero-content p {
+    color: #000;
+    font-size: 20px;
 }
 
-.hero-carousel p {
-    font-size: 18px;
-    color: #979797;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 1px;
-    font-weight: 100;
+.carousel-flex {
+    display: flex;
+}
+
+.carousel-one,
+.carousel-two,
+.carousel-three,
+.carousel-four {
+    flex: 1;
+    margin: 10px;
+    height: 50vh;
+    box-shadow: 2px 1px 13px black;
+}
+
+.carousel-one {
+    background: red;
+}
+
+.carousel-two {
+    background: red;
+}
+
+.carousel-three {
+    background: red;
+}
+
+.carousel-four {
+    background: red;
+}
+
+/* ABOUT */
+
+.about-flex {
+    display: flex;
+}
+
+.about-content,
+.about-img {
+    flex: 50%;
+}
+
+/* FOOTER */
+
+footer {
+    background: linear-gradient(rgba(255, 255, 255),rgba(255, 255, 255, 0.3)),
+        url("../images/suite.jpg") no-repeat center;
+    height: 60vh;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px){
+    .about-flex {
+        flex-direction: column;
+    }
+
+    .carousel-one,
+    .carousel-two,
+    .carousel-three,
+    .carousel-four {
+        display: block;
+        height: 20rem;
+    }
+
+    .carousel-flex {
+        display: block;
+    }
 }
 
 /* Small (sm) */
 @media (min-width: 640px) {
-    .container {
+    #section__container {
         max-width: 640px;
         margin: 0 auto;
+        padding: 70px 20px;
     }
+
+    
 }
 
 /* Medium (md) */
 @media (min-width: 768px)  {
-    .container {
+    #section__container {
         max-width: 768px;
         margin: 0 auto;
+        padding: 70px 20px;
+    }
+
+    .about-content-inner {
+        width: 500px;
     }
 }
 
 
 /* Large (lg) */
 @media (min-width: 1024px)  {
-    .container {
+    #section__container {
         max-width: 1024px;
         margin: 0 auto;
+        padding: 70px 20px;
     }
 }
 
 
 /* Extra Large (xl) */
 @media (min-width: 1280px)  {
-    .container {
+    #section__container {
         max-width: 1280px;
         margin: 0 auto;
+        padding: 70px 20px;
     }
 }
 
