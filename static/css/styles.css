@@ -3,9 +3,21 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-body {
+/* body {
     background: url("../images/bg.png") repeat;
     background-size: contain;
+} */
+
+
+.btn-container {
+    margin: 50px 0;
+}
+
+.btn-container a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
 }
 
 #section__container {
@@ -17,13 +29,16 @@ img {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 2;
 }
 
 * {
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
+
+/* NAV */
 
 .header-bar {
     background-color: #000000;
@@ -36,15 +51,14 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #ffffff;
-    box-shadow: 0px 3px 11px #a2a2a2;
+    background-color: transparent;
     position: absolute;
     left: 0;
     right: 0;
 }
 
 .header-cta a {
-    background-color: #282828;
+    background-color: #e3944c;
     padding: 20px 40px;
     color: white;
     text-decoration: none;
@@ -56,6 +70,8 @@ div.logo,
 .header-cta,
 nav {
     flex: 1;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 nav ul li {
@@ -65,7 +81,9 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #000000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
 }
 
 .img-slide {
@@ -75,27 +93,139 @@ nav ul li a {
     margin-left: 10%;
 }
 
+@media screen and (min-width: 768px) {
+    .nav-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav-mobile {
+        position: relative;
+        z-index: 1000;
+        cursor: pointer;
+        text-align: right;
+        margin: 0 30px;
+    }
+
+    .header-cta a {
+        display: none;
+    }
+
+    nav{
+        transition: all .2s ease-in-out;
+        width: 0%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .open{
+        background-color: black;
+        width: 70%;
+        transition: all .3s ease-in-out;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1000;
+        display: block;
+        height: 100vh;
+    }
+
+    .open ul {
+        margin-top: 200px;
+    }
+
+    .open li {
+        display: block;
+        margin: 50px 0;
+    }
+
+    nav li {
+        display: block;
+        margin: 20px 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    nav ul {
+        margin-top: 100px;
+    }
+}
+
+/* HERO */
+
 #hero__container {
     height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(rgba(255,255,255, 0.3), rgba(255,255,255, 0.5)), 
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.5)), 
         url("../images/homeview.jpg") no-repeat center;
 }
 
 .hero-content {
-    width: 50%;
-    text-align: left;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .hero-content h1 {
-    color: #000;
-    font-size: 3em;
+    color: #fff;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 10px;
 }
 
 .hero-content p {
-    color: #000;
-    font-size: 20px;
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 1.2px;
+}
+
+@media screen and (max-width: 768px){
+    .hero-content h1 {
+        font-size: 1.5em;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+}
+
+
+/* INTRO */
+
+.intro-content {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+    .intro-content {
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+
+
+/* CAROUSEL */
+
+.carousel-inner {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url('../images/02-Ocean-View-SBBC.jpg') no-repeat center;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-inner {
+        background-attachment: fixed;
+    }
 }
 
 .carousel-flex {
@@ -104,28 +234,55 @@ nav ul li a {
 
 .carousel-one,
 .carousel-two,
-.carousel-three,
-.carousel-four {
+.carousel-three {
     flex: 1;
     margin: 10px;
-    height: 50vh;
-    box-shadow: 2px 1px 13px black;
+    height: auto;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    transition: background .2s ease-in-out;
 }
 
-.carousel-one {
-    background: red;
+.carousel-one p,
+.carousel-two p,
+.carousel-three li{
+    color: #505050;
 }
 
-.carousel-two {
-    background: red;
+.carousel-one:hover {
+    background-color: rgba(227, 148, 76, 0.7);
+    transition: background .2s ease-in-out;
+    -webkit-transition: background .2s ease-in-out;
+    -o-transition: background .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out;
+    -ms-transition: background .2s ease-in-out;
 }
 
-.carousel-three {
-    background: red;
+.carousel-two:hover {
+    background-color: rgba(227, 148, 76, 0.7);
+    transition: background .2s ease-in-out;
+    -webkit-transition: background .2s ease-in-out;
+    -o-transition: background .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out;
+    -ms-transition: background .2s ease-in-out;
 }
 
-.carousel-four {
-    background: red;
+.carousel-three:hover {
+    background-color: rgba(227, 148, 76, 0.7);
+    transition: background .2s ease-in-out;
+    -webkit-transition: background .2s ease-in-out;
+    -o-transition: background .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out;
+    -ms-transition: background .2s ease-in-out;
+}
+
+.carousel-one p,
+.carousel-two p,
+.carousel-three li {
+    font-size: 16px;
+    margin: 5px 0;
 }
 
 /* ABOUT */
@@ -139,13 +296,49 @@ nav ul li a {
     flex: 50%;
 }
 
+.about-img {
+    text-align: center;
+}
+
+.about-img img {
+    box-shadow: 17px 16px #ebdccc;
+}
+
 /* FOOTER */
 
 footer {
-    background: linear-gradient(rgba(255, 255, 255),rgba(255, 255, 255, 0.3)),
-        url("../images/suite.jpg") no-repeat center;
+    background: linear-gradient(rgba(255, 255, 255),rgba(255, 255, 255, 0.68)),
+        url("../images/homeview.jpg") no-repeat center;
     height: 60vh;
     background-size: cover;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+    transition: color .2s ease-in-out;
+}
+
+footer a:hover {
+    color: #e3944c;
+    transition: color .2s ease-in-out;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom p {
+    font-size: 16px;
+}
+
+.designer,
+.center-footer,
+.bottom-phone {
+    flex: 1;
+    text-align: center;
+    font-weight: 800;
 }
 
 @media screen and (max-width: 768px){
