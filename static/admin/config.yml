@@ -20,7 +20,7 @@ collections:
   - name: 'defaultpages'
     label: 'Default Pages'
     files:
-      - file: 'content/index.md'
+      - file: 'content/_index.md'
         label: 'Home'
         name: 'index'
         fields:
@@ -32,9 +32,21 @@ collections:
             fields:
               - { label: 'Meta Title', name: 'metatitle', widget: 'string' }
               - { label: 'Meta Description', name: 'metadescription', widget: 'string' }
-      - file: 'content/about/index.md'
+      - file: 'content/about/_index.md'
         label: 'About'
         name: 'about'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string'}
+          - { label: 'Body', name: 'body', widget: 'markdown'}
+          - label: 'Page SEO'
+            name: 'seo'
+            widget: 'object'
+            fields:
+              - { label: 'Meta Title', name: 'metatitle', widget: 'string' }
+              - { label: 'Meta Description', name: 'metadescription', widget: 'string' }
+      - file: 'content/floorplan/index.md'
+        label: 'Floor Plan'
+        name: 'floorplan'
         fields:
           - { label: 'Title', name: 'title', widget: 'string'}
           - { label: 'Body', name: 'body', widget: 'markdown'}

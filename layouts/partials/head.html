@@ -22,7 +22,7 @@
     <title>{{ . }}</title>
     {{ end }}
 
-    {{ with .Params.metadescription }}
+    {{ with .Params.Seo.Metadescription }}
     <meta name="description" content="{{ . }}">
     {{ end }}
 </head>
