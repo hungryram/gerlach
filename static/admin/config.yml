@@ -24,18 +24,26 @@ collections:
         label: 'Home'
         name: 'index'
         fields:
-          - {label: Title, name: title, widget: string}
-          - { label: 'Description', name: 'description', widget: 'string' }
-          - { label: 'Meta Title', name: 'metatitle', widget: 'string' }
-          - { label: 'Meta Description', name: 'metadescription', widget: 'string' }
-          - {label: Heading, name: heading, widget: string}
-          - {label: body, name: body, widget: markdown}
+          - { label: Title, name: title, widget: string}
+          - { label: body, name: body, widget: markdown}
+          - label: 'Page SEO'
+            name: 'seo'
+            widget: 'object'
+            fields:
+              - { label: 'Meta Title', name: 'metatitle', widget: 'string' }
+              - { label: 'Meta Description', name: 'metadescription', widget: 'string' }
       - file: 'content/about/index.md'
         label: 'About'
         name: 'about'
         fields:
-          - {label: 'Title', name: 'title', widget: 'string'}
-          - {label: 'Body', name: 'body', widget: 'markdown'}
+          - { label: 'Title', name: 'title', widget: 'string'}
+          - { label: 'Body', name: 'body', widget: 'markdown'}
+          - label: 'Page SEO'
+            name: 'seo'
+            widget: 'object'
+            fields:
+              - { label: 'Meta Title', name: 'metatitle', widget: 'string' }
+              - { label: 'Meta Description', name: 'metadescription', widget: 'string' }
   - name: 'pages'
     label: 'Custom Page'
     folder: 'content/'
@@ -45,7 +53,10 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Meta Title', name: 'metatitle', widget: 'string' }
-      - { label: 'Meta Description', name: 'metadescription', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Page SEO'
+        name: 'seo'
+        widget: 'object'
+        fields:
+          - { label: 'Meta Title', name: 'metatitle', widget: 'string' }
+          - { label: 'Meta Description', name: 'metadescription', widget: 'string' }

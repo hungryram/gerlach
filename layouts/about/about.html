@@ -1,12 +1,13 @@
-{{ partial "head.html" . }}
+{{ define "main" }}
 
-{{ partial "header.html" . }}
+<div class="about-main-img">
+    <!-- IMAGE -->
+</div>
+<!-- CONTENT -->
+
+{{ with .Params.Body }}
+{{ . | markdownify }}
+{{end}}
 
 
-{{ .Params.title }}<br>
-{{ .Params.description }}
-<br>
-
-<a href="{{.Site.BaseURL}}/blog">Blog</a>
-
-{{ partial "footer.html" . }}
+{{ end }}
