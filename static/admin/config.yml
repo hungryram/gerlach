@@ -44,12 +44,29 @@ collections:
             fields:
               - { label: 'Meta Title', name: 'metatitle', widget: 'string' }
               - { label: 'Meta Description', name: 'metadescription', widget: 'string' }
-      - file: 'content/floorplan/index.md'
+      - file: 'content/floorplan/_index.md'
         label: 'Floor Plan'
         name: 'floorplan'
         fields:
           - { label: 'Title', name: 'title', widget: 'string'}
           - { label: 'Body', name: 'body', widget: 'markdown'}
+          - label: 'Page SEO'
+            name: 'seo'
+            widget: 'object'
+            fields:
+              - { label: 'Meta Title', name: 'metatitle', widget: 'string' }
+              - { label: 'Meta Description', name: 'metadescription', widget: 'string' }
+      - file: 'content/testimonials/_index.md'
+        label: 'Testimonials'
+        name: 'testimonials'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string'}
+          - label: 'Testimonials'
+            name: 'listtestimonials'
+            widget: 'list'
+            fields:
+              - { label: 'Testimonial', name: 'testimonials', widget: 'markdown'}
+              - { label: 'Reviewer Name', name: 'reviewer', widget: 'string'}
           - label: 'Page SEO'
             name: 'seo'
             widget: 'object'
