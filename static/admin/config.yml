@@ -76,8 +76,8 @@ collections:
             name: 'gallery'
             widget: 'list'
             fields:
-              - { label: 'Photos', name: 'photos', widget: 'image' }
-              - { label: 'Image Alt Tags', name: 'imagealtgallery', widget: 'image' }
+              - { label: 'Photos', name: 'photos', widget: 'image', required: false}
+              - { label: 'Image Alt Tags', name: 'imagealtgallery', widget: 'string', required: false }
           - label: 'Page SEO'
             name: 'seo'
             widget: 'object'
