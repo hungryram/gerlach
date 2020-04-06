@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="interior-body-content">
+    {{ .Content }}
+</div>
+{{ range .Params.Gallery }}
+<img src="{{.Site.BaseURL}}{{ .photos }}" alt="{{ .imagealtgallery }}"/>
+{{ end }}
+
+
+{{ end }}

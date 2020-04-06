@@ -66,6 +66,24 @@ collections:
             fields:
               - { label: 'Meta Title', name: 'metatitle', widget: 'string' }
               - { label: 'Meta Description', name: 'metadescription', widget: 'string' }
+      - file: 'content/photos/_index.md'
+        label: 'Photos'
+        name: 'photos'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string'}
+          - { label: 'Body', name: 'body', widget: 'markdown'}
+          - label: 'Gallery'
+            name: 'gallery'
+            widget: 'list'
+            fields:
+              - { label: 'Photos', name: 'photos', widget: 'image' }
+              - { label: 'Image Alt Tags', name: 'imagealtgallery', widget: 'image' }
+          - label: 'Page SEO'
+            name: 'seo'
+            widget: 'object'
+            fields:
+              - { label: 'Meta Title', name: 'metatitle', widget: 'string' }
+              - { label: 'Meta Description', name: 'metadescription', widget: 'string' }
       - file: 'content/testimonials/_index.md'
         label: 'Testimonials'
         name: 'testimonials'
