@@ -388,6 +388,20 @@ footer a:hover {
     }
 }
 
+/* Testimonial Page*/
+.testimonial-body-content {
+    padding: 50px 0;
+}
+
+.testimonial-list-container {
+    padding: 10px 20px;
+}
+
+.testimonial-list-container:nth-child(odd) {
+    background-color: #f6f6f6;
+}
+
+
 /* Small (sm) */
 @media (min-width: 640px) {
     #section__container {
