@@ -6,7 +6,7 @@
         </div>
         {{ range .Params.Listtestimonials }}
         <div class="testimonial-list-container">
-            <p><em>{{ .testimonials }}</em></p>
+            <p><em>{{ .testimonials | markdownify }}</em></p>
             <p><strong>{{ .reviewer }}</strong></p>
         </div>
         {{ end }}
