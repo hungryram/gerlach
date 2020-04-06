@@ -23,6 +23,8 @@ collections:
       - file: 'content/_index.md'
         label: 'Home'
         name: 'index'
+        editor:
+          preview: false
         fields:
           - { label: Title, name: title, widget: string}
           - { label: body, name: body, widget: markdown}
@@ -35,6 +37,8 @@ collections:
       - file: 'content/about/_index.md'
         label: 'About'
         name: 'about'
+        editor:
+          preview: false
         fields:
           - { label: 'Title', name: 'title', widget: 'string'}
           - { label: 'Body', name: 'body', widget: 'markdown'}
@@ -47,6 +51,8 @@ collections:
       - file: 'content/floorplan/_index.md'
         label: 'Floor Plan'
         name: 'floorplan'
+        editor:
+          preview: false
         fields:
           - { label: 'Title', name: 'title', widget: 'string'}
           - { label: 'Body', name: 'body', widget: 'markdown'}
@@ -59,6 +65,8 @@ collections:
       - file: 'content/testimonials/_index.md'
         label: 'Testimonials'
         name: 'testimonials'
+        editor:
+          preview: false
         fields:
           - { label: 'Title', name: 'title', widget: 'string'}
           - label: 'Testimonials'
@@ -66,7 +74,7 @@ collections:
             widget: 'list'
             fields:
               - { label: 'Testimonial', name: 'testimonials', widget: 'markdown'}
-              - { label: 'Reviewer Name', name: 'reviewer', widget: 'string'}
+              - { label: 'Reviewer Name', name: 'reviewer', widget: 'string' required: false}
           - label: 'Page SEO'
             name: 'seo'
             widget: 'object'
