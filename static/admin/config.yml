@@ -67,6 +67,7 @@ collections:
         name: 'testimonials'
         fields:
           - { label: 'Title', name: 'title', widget: 'string'}
+          - { label: 'Body', name: 'body', widget: 'markdown'}
           - label: 'Testimonials'
             name: 'listtestimonials'
             widget: 'list'
