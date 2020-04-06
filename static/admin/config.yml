@@ -38,6 +38,34 @@ collections:
             fields:
               - { label: 'Meta Title', name: 'metatitle', widget: 'string' }
               - { label: 'Meta Description', name: 'metadescription', widget: 'string' }
+      - file: 'content/amenities/_index.md'
+        label: 'Amenities'
+        name: 'amenities'
+        editor:
+          preview: false
+        fields:
+          - { label: Title, name: title, widget: string}
+          - { label: body, name: body, widget: markdown}
+          - label: 'Page SEO'
+            name: 'seo'
+            widget: 'object'
+            fields:
+              - { label: 'Meta Title', name: 'metatitle', widget: 'string' }
+              - { label: 'Meta Description', name: 'metadescription', widget: 'string' }
+      - file: 'content/concierge/_index.md'
+        label: 'Concierge'
+        name: 'concierge'
+        editor:
+          preview: false
+        fields:
+          - { label: Title, name: title, widget: string}
+          - { label: body, name: body, widget: markdown}
+          - label: 'Page SEO'
+            name: 'seo'
+            widget: 'object'
+            fields:
+              - { label: 'Meta Title', name: 'metatitle', widget: 'string' }
+              - { label: 'Meta Description', name: 'metadescription', widget: 'string' }
       - file: 'content/about/_index.md'
         label: 'About'
         name: 'about'

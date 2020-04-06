@@ -24,6 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 #main-content__container {
@@ -92,10 +93,15 @@ header {
     box-shadow: 2px 1px 13px black;
 }
 
-div.logo,
-.header-cta,
+a.logo,
+.header-cta {
+    flex: 25%;
+    color: #fff;
+    text-decoration: none;
+}
+
 nav {
-    flex: 1;
+    flex: 50%;
     color: #fff;
     text-transform: uppercase;
 }
