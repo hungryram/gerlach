@@ -12,6 +12,10 @@
     padding: 50px 0;
 }
 
+.clear {
+    clear: both;
+}
+
 .interior-image {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),
         url('../images/02-Ocean-View-SBBC.jpg') no-repeat center;
@@ -405,6 +409,24 @@ footer a:hover {
 
 .testimonial-list-container:nth-child(odd) {
     background-color: #f6f6f6;
+}
+
+/* PHOTOS PAGE */
+
+.main-photo-container {
+    text-align: center;
+}
+
+.photo-container img {
+    box-shadow: 0px 4px 6px 0px #7a7a7a;;
+}
+
+@media screen and (min-width: 768px){
+    .photo-container {
+        display: inline-block;
+        width: 500px;
+        margin: 10px;
+    }
 }
 
 

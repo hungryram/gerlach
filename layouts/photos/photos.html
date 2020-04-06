@@ -2,9 +2,14 @@
 <div class="interior-body-content">
     {{ .Content }}
 </div>
+<div class="main-photo-container">
 {{ range .Params.Gallery }}
-<img src="{{.Site.BaseURL}}{{ .photos }}" alt="{{ .imagealtgallery }}"/>
+<div class="photo-container">
+<img src="{{ .photos }}" alt="{{ .imagealtgallery }}"/>
+</div>
 {{ end }}
+</div>
 
+<div class="clear"></div>
 
 {{ end }}
