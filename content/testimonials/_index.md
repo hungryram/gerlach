@@ -100,3 +100,4 @@ seo:
   metatitle: Testimonials - Santa Barbara Beach Club
   metadescription: Santa Barbara Beach club testimonials
 ---
+View our testimonials on our Santa Barbara Beach Club
