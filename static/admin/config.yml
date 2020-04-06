@@ -65,8 +65,6 @@ collections:
       - file: 'content/testimonials/_index.md'
         label: 'Testimonials'
         name: 'testimonials'
-        editor:
-          preview: false
         fields:
           - { label: 'Title', name: 'title', widget: 'string'}
           - label: 'Testimonials'
