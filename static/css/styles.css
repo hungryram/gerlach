@@ -397,6 +397,10 @@ footer a:hover {
     padding: 10px 20px;
 }
 
+.testimonial-list-container p {
+    font-size: 1em;
+}
+
 .testimonial-list-container:nth-child(odd) {
     background-color: #f6f6f6;
 }
