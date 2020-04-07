@@ -523,6 +523,7 @@ img.preview, img.modal-preview {
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
+    background-color: black;
   }
   
   .next {
