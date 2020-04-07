@@ -470,13 +470,18 @@ footer a:hover {
 }
 
 img.preview, img.modal-preview {
-    opacity: 0.6;
+    opacity: 0.8;
+    cursor: pointer;
   }
   
   img.active,
   .preview:hover,
   .modal-preview:hover {
     opacity: 1;
+  }
+
+  .photo-container img:hover {
+      cursor: pointer;
   }
   
   img.hover-shadow {
@@ -539,7 +544,7 @@ img.preview, img.modal-preview {
 
 @media screen and (max-width:768px){
     .modal-content {
-        top: 30%;
+        top: 25%;
     }
 }
 
