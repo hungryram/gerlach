@@ -7,6 +7,9 @@ gallery:
     imagealtgallery: beach photos
   - photos: 'https://ucarecdn.com/e6d9cb44-6147-46af-9e08-8fdda8719032/'
   - photos: 'https://ucarecdn.com/8f9f82c0-e0b9-4856-a0a7-d151ee6ea9bd/'
+  - photos: >-
+      https://res.cloudinary.com/hungryram/image/upload/v1586298673/logo_hnmldj.jpg
+  - photos: 'https://res.cloudinary.com/hungryram/image/upload/v1586298147/sample.jpg'
 seo:
   metatitle: Photos of Santa Barbara Beach Club
   metadescription: Photos of Santa Barbara Beach Club
