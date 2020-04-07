@@ -5,10 +5,34 @@
 <div class="main-photo-container">
 {{ range .Params.Gallery }}
 <div class="photo-container">
-<img src="{{ .photos }}" alt="{{ .imagealtgallery }}"/>
+<img src="{{ .photos }}" alt="{{ .imagealtgallery }}" onClick="openLightbox();toSlide(1)" class="hover-shadow preview"/>
 </div>
 {{ end }}
 </div>
+
+<div id="lightbox" class="modal">
+    <span class="close pointer" onclick="closeLightbox()">&times;</span>
+    <div class="modal-content">
+{{ range .Params.Gallery }}
+        <div class="slide">
+            <img src="{{ .photos }}" alt="{{ .imagealtgallery }}" class="image-slide"/>
+        </div>
+{{ end }}
+
+
+
+    <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    <div class="dots">
+        {{ range .Params.Gallery }}
+            <div class="dots-photo-container">
+                <img src="{{ .photos }}" alt="{{ .imagealtgallery }}" class="modal-preview hover-shadow" onclick="toSlide(1)"/>
+            </div>
+        {{end}}
+    </div>
+    </div>
+</div>
+
 
 <div class="clear"></div>
 
