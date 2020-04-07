@@ -2,10 +2,15 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 # media_folder: static/img
+# media_library:
+#   name: uploadcare
+#   config:
+#     publicKey: 558f11b395ef5405cb44
 media_library:
-  name: uploadcare
+  name: cloudinary
   config:
-    publicKey: 558f11b395ef5405cb44
+    cloud_name: hungryram
+    api_key: 796562171531976
 public_folder: /img
 collections:
   - name: 'blog'
