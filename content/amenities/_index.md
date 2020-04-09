@@ -1,19 +1,15 @@
 ---
 title: Amenities
 seo:
-  metadescription: >-
-    This spectacular oceanfront vacation-style home, located on the Pacific
-    Coast of Southern California, has a Gourmet Kitchen, Home Theater, Rec Room,
-    Sauna and Steam Room, and an Endless Pool with a View.
-  metatitle: >-
-    Amenities at the Santa Barbara Beach Club - A Luxury Vacation Rental
-    Property
+  metadescription: This spectacular oceanfront vacation-style home, located on the
+    Pacific Coast of Southern California, has a Gourmet Kitchen, Home Theater,
+    Rec Room, Sauna and Steam Room, and an Endless Pool with a View.
+  metatitle: Amenities at the Santa Barbara Beach Club - A Luxury Vacation Rental Property
 ---
-Architecture by Robert Foley, Santa Barbara Interior design by Tuvalu, Laguna Beach
+Architecture by Robert Foley, Santa Barbara\
+Interior design by Tuvalu, Laguna Beach\
 Cabinetry by PJ Milligan, Santa Barbara
-Theatre by Roberts Home Audio Video, Los Angeles
-
-
+Theater by Roberts Home Audio Video, Los Angeles
 
 ### GROUND FLOOR
 
@@ -27,7 +23,7 @@ Ocean Front Master Suite, Fireplace
 
 ### ENTERTAINMENT LEVEL
 
-$400K Deluxe Home Theater\
+Home theater by Roberts of Beverly Hills\
 Recreation Room & Media Center\
 Life Fitness Home Gym\
 Spa with Sauna and Steam Room\
