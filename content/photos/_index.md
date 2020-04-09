@@ -2,7 +2,9 @@
 title: Santa Barbara Beach Club view chasing 220 acre More Mesa Ocean Front wild
   life preserve and walking trails
 gallery:
+  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586417682/Tesla_Charger_SBBC_jr5odj.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299339/40_Pool_Deck_3_SBBC_xxvamh.jpg
+  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299330/2.2_Beach_Stairs_SBBC_xelve0.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299339/IMG_7958_c6zcje.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299339/IMG_1465_dmaqht.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299339/42_Sunset_SBBC_mzplad.jpg
@@ -48,7 +50,6 @@ gallery:
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299331/03_Sunrise_SBBC_lwtklr.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299331/02_Ocean_View_SBBC_chtjkh.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299330/02.3_Pool_Deck_4_SBBC_e0cyzd.jpg
-  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299330/2.2_Beach_Stairs_SBBC_xelve0.jpg
 seo:
   metatitle: Photos of Santa Barbara Beach Club
   metadescription: Photos of Santa Barbara Beach Club
