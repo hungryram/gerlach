@@ -200,6 +200,7 @@ nav ul li a {
     justify-content: center;
     background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0)), 
         url("../images/homeview.jpg") no-repeat center;
+        background-size: cover;
 }
 
 .hero-content {
@@ -344,13 +345,13 @@ footer {
     background-size: cover;
 }
 
-footer a {
+.footer-inner a {
     text-decoration: none;
     color: #000000;
     transition: color .2s ease-in-out;
 }
 
-footer p {
+.footer-inner p {
     font-size: 21px;
 }
 
@@ -362,6 +363,12 @@ footer a:hover {
     .footer-bottom {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-inner p {
+        font-size: 18px;
     }
 }
 
