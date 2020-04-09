@@ -198,7 +198,7 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.5)), 
+    background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0)), 
         url("../images/homeview.jpg") no-repeat center;
 }
 
@@ -339,7 +339,7 @@ nav ul li a {
 /* FOOTER */
 
 footer {
-    background: linear-gradient(rgba(255, 255, 255),rgba(255, 255, 255, 0.68)),
+    background: linear-gradient(rgba(255, 255, 255),rgba(255, 255, 255, 0.2)),
         url("../images/homeview.jpg") no-repeat center;
     background-size: cover;
 }
@@ -348,6 +348,10 @@ footer a {
     text-decoration: none;
     color: #000000;
     transition: color .2s ease-in-out;
+}
+
+footer p {
+    font-size: 21px;
 }
 
 footer a:hover {
@@ -362,12 +366,11 @@ footer a:hover {
 }
 
 .footer-bottom p {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .designer,
-.center-footer,
-.bottom-phone {
+.center-footer {
     flex: 1;
     text-align: center;
     font-weight: 800;
@@ -554,7 +557,7 @@ img.preview, img.modal-preview {
     #section__container {
         max-width: 640px;
         margin: 0 auto;
-        padding: 70px 20px;
+        padding: 50px 20px;
     }
 
     
@@ -565,7 +568,7 @@ img.preview, img.modal-preview {
     #section__container {
         max-width: 768px;
         margin: 0 auto;
-        padding: 70px 20px;
+        padding: 50px 20px;
     }
 
     .about-content-inner {
@@ -579,7 +582,7 @@ img.preview, img.modal-preview {
     #section__container {
         max-width: 1024px;
         margin: 0 auto;
-        padding: 70px 20px;
+        padding: 50px 20px;
     }
 }
 
@@ -589,7 +592,7 @@ img.preview, img.modal-preview {
     #section__container {
         max-width: 1280px;
         margin: 0 auto;
-        padding: 70px 20px;
+        padding: 50px 20px;
     }
 }
 
