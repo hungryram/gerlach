@@ -53,4 +53,4 @@ seo:
   metatitle: Photos of Santa Barbara Beach Club
   metadescription: Photos of Santa Barbara Beach Club
 ---
-click to enlarge photos of Santa Barbara Beach Club
+Click to enlarge photos of Santa Barbara Beach Club
