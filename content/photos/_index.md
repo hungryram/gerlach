@@ -44,7 +44,7 @@ gallery:
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299339/40_Pool_Deck_3_SBBC_xxvamh.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299339/41_Pool_Deck_5_SBBC_nmjrpk.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299339/42_Sunset_SBBC_mzplad.jpg
-  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299339/43_Sunrise_2_SBBC_xa2jj3.jpg
+  - photos: ""
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299339/43_Sunrise_2_SBBC_xa2jj3.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299339/IMG_1465_dmaqht.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299339/IMG_7958_c6zcje.jpg
