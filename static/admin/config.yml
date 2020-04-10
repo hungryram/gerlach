@@ -24,7 +24,7 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false}
 
   - name: 'defaultpages'
     label: 'Default Pages'
@@ -36,7 +36,7 @@ collections:
           preview: false
         fields:
           - { label: Title, name: title, widget: string}
-          - { label: body, name: body, widget: markdown}
+          - { label: body, name: body, widget: markdown, required: false}
           - label: 'Page SEO'
             name: 'seo'
             widget: 'object'
@@ -50,7 +50,7 @@ collections:
           preview: false
         fields:
           - { label: Title, name: title, widget: string}
-          - { label: body, name: body, widget: markdown}
+          - { label: body, name: body, widget: markdown, required: false}
           - label: 'Page SEO'
             name: 'seo'
             widget: 'object'
@@ -64,7 +64,7 @@ collections:
           preview: false
         fields:
           - { label: Title, name: title, widget: string}
-          - { label: body, name: body, widget: markdown}
+          - { label: body, name: body, widget: markdown, required: false}
           - label: 'Page SEO'
             name: 'seo'
             widget: 'object'
@@ -78,7 +78,7 @@ collections:
           preview: false
         fields:
           - { label: 'Title', name: 'title', widget: 'string'}
-          - { label: 'Body', name: 'body', widget: 'markdown'}
+          - { label: 'Body', name: 'body', widget: 'markdown', required: false}
           - label: 'Page SEO'
             name: 'seo'
             widget: 'object'
@@ -92,7 +92,7 @@ collections:
           preview: false
         fields:
           - { label: 'Title', name: 'title', widget: 'string'}
-          - { label: 'Body', name: 'body', widget: 'markdown'}
+          - { label: 'Body', name: 'body', widget: 'markdown', required: false}
           - label: 'Page SEO'
             name: 'seo'
             widget: 'object'
@@ -144,7 +144,7 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
       - label: 'Page SEO'
         name: 'seo'
         widget: 'object'

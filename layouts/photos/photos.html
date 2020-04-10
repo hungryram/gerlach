@@ -1,5 +1,21 @@
 {{ define "main" }}
+<style>
+    .interior-title h2 {
+        display: none;        
+    }
+
+    .interior-body-content p {
+        font-size: 24px;
+        font-weight: 800;
+    }
+</style>
+
+<div class="captionimage">
+    <p>Santa Barbara Beach Club view of 220 acre More Mesa Oceanfront wild life preserve and walking trails</p>
+</div>
+
 <div class="interior-body-content">
+    <!-- Client requested for title to be switched -->
     {{ .Content }}
 </div>
 <div class="main-photo-container">
