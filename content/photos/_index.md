@@ -47,8 +47,8 @@ gallery:
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299339/43_Sunrise_2_SBBC_xa2jj3.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299339/IMG_1465_dmaqht.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299339/IMG_7958_c6zcje.jpg
-  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299330/2.2_Beach_Stairs_SBBC_xelve0.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586418379/Tesla_Charger_SBBC_jr5odj.jpg
+  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299330/2.2_Beach_Stairs_SBBC_xelve0.jpg
 seo:
   metatitle: Photos of Santa Barbara Beach Club
   metadescription: Photos of Santa Barbara Beach Club
