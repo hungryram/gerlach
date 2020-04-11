@@ -1,4 +1,9 @@
-{{ define "main" }}
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+<div class="interior-image">
+    <p>{{ .Title }}</p>
+</div>
+
 <style>
     .interior-title h2 {
         display: none;        
@@ -8,13 +13,15 @@
         font-size: 24px;
         font-weight: 800;
     }
+
+    .interior-image p {
+        color: #fff;
+        position: relative;
+        top: 110px;
+    }
 </style>
 
-<div class="captionimage">
-    <p>Santa Barbara Beach Club view of 220 acre More Mesa Oceanfront wild life preserve and walking trails</p>
-</div>
-
-<div class="interior-body-content">
+<div class="interior-body-content" id="section__container">
     <!-- Client requested for title to be switched -->
     {{ .Content }}
 </div>
@@ -52,4 +59,4 @@
 
 <div class="clear"></div>
 
-{{ end }}
+{{ partial "footer.html" . }}
