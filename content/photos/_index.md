@@ -12,7 +12,7 @@ gallery:
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299332/07_Kitchen_2_SBBC_ra5lfm.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299332/08_Entertainment_Level_Entry_SBBC_bcw2h9.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299332/09_Entertainment_Level_Aquarium_SBBC_bekzeu.jpg
-  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299333/10_Entertainment_Level_Bar_View_SBBC_jreuxz.jpg
+  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586821308/01-Home-View2-2-SBBC_ikgu5o.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299332/11_Entertainment_Level_Arcade_SBBC_s3x3bn.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299333/12_Entertainment_Level_Dining_Entry_SBBC_xduzdw.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299333/13_Entertainment_Level_Dining_SBBC_j3cnl9.jpg
