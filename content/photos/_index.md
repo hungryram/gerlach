@@ -14,14 +14,14 @@ gallery:
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299332/09_Entertainment_Level_Aquarium_SBBC_bekzeu.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586821308/01-Home-View2-2-SBBC_ikgu5o.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299332/11_Entertainment_Level_Arcade_SBBC_s3x3bn.jpg
-  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299333/12_Entertainment_Level_Dining_Entry_SBBC_xduzdw.jpg
+  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586821455/arch_oxlxzo.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299333/13_Entertainment_Level_Dining_SBBC_j3cnl9.jpg
-  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299333/14_Humidor_SBBC_ydzzvh.jpg
-  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299333/15_Entertainment_Level_Theater_SBBC_wtfo4h.jpg
-  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299334/16_Entertainment_Level_Gym_1_SBBC_h565h1.jpg
-  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299335/18_Entertainment_Level_Gym_2_SBBC_cevdff.jpg
-  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299334/19_Entertainment_Level_Spa_Bath_SBBC_rmwovu.jpg
-  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299334/20_Circular_Stairs_SBBC_cawn83.jpg
+  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586821568/pole_uenzxq.jpg
+  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586821648/theater_ocegll.jpg
+  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586821712/eliptical_ullwfm.jpg
+  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586821779/eliptical2_yc4tsg.jpg
+  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586821833/sauna_dzjent.jpg
+  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586821969/stairs_b77jtk.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299334/21_Master_Suite_1_SBBC_qsb6ol.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299335/22_Master_Suite_2_SBBC_tsegtl.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299335/23_Master_Bath_SBBC_beisl4.jpg
