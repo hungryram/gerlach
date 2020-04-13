@@ -1,5 +1,5 @@
 ---
-title: Santa Barbara Beach Club view of 220 acre More Mesa Oceanfront wild life
+title: Santa Barbara Beach Club view of 220 acre More Mesa oceanfront wildlife
   preserve and walking trails
 gallery:
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299331/01_Home_View_2_SBBC_vcyljz.jpg
