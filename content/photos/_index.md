@@ -28,15 +28,15 @@ gallery:
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299335/24_Master_Shower_Bath_SBBC_tdsd1w.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299335/25_Navigator_Suite_2_SBBC_kwxmjg.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299336/26_Navigator_Suite_1_SBBC_qzfgl8.jpg
-  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299336/27_Navigator_Guest_Suite_SBBC_pp4tml.jpg
-  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299336/28_Navigator_Bath_SBBC_tx5uhv.jpg
+  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586822096/room_oh0hhy.jpg
+  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586822152/bath_ou1lhg.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299338/29_Sea_Lion_Suite_SBBC_urymkh.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299336/30_Sea_Lion_Bath_SBBC_x0zk5u.jpg
-  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299337/31_Mountain_View_Suite_SBBC_fzohus.jpg
+  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586822353/bed2_dgbdff.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299337/32_Mountain_View_Bath_SBBC_woqdid.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299337/33_Hawaiiana_1_SBBC_agjofh.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299338/34_Hawaiiana_2_SBBC_w4dqht.jpg
-  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299338/35_Hawaiiana_3_SBBC_sbkcii.jpg
+  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586822445/tiki_r0l5of.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299338/36_Hawaiiana_Bath_SBBC_ghujnl.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299338/37_Pool_Deck_5_SBBC_d533gq.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299338/38_Home_View_1_SBBC_hgxmsj.jpg
@@ -47,8 +47,8 @@ gallery:
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299339/43_Sunrise_2_SBBC_xa2jj3.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299339/IMG_1465_dmaqht.jpg
   - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299339/IMG_7958_c6zcje.jpg
-  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586418379/Tesla_Charger_SBBC_jr5odj.jpg
-  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586299330/2.2_Beach_Stairs_SBBC_xelve0.jpg
+  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586822566/tesla_oyvakl.jpg
+  - photos: https://res.cloudinary.com/hungryram/image/upload/v1586822693/patio_igg1zt.jpg
 seo:
   metatitle: Photos of Santa Barbara Beach Club
   metadescription: Photos of Santa Barbara Beach Club
