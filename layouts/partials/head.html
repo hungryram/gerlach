@@ -18,11 +18,11 @@
 <!-- Add the slick-theme.css if you want default styling -->
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
-    {{ with .Params.Seo.MetaTitle }}
+    {{ with .Params.Seo.MetaTitle | default .Params.title }}
     <title>{{ . }}</title>
     {{ end }}
 
-    {{ with .Params.Seo.Metadescription }}
+    {{ with .Params.Seo.Metadescription | default .Params.description }}
     <meta name="description" content="{{ . }}">
     {{ end }}
 

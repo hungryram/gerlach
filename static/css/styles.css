@@ -81,7 +81,23 @@ p {
 
 .header-bar {
     background-color: #000000;
-    height: 10px;
+    padding: 10px;
+}
+
+.header-bar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+@media screen and (min-width: 1087px) {
+    .header-bar a {
+        display: none;
+    }
+
+    div.header-bar {
+        height: 10px;
+    }
 }
 
 header {
