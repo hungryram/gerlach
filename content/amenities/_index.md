@@ -3,7 +3,7 @@ title: Amenities
 seo:
   metadescription: This spectacular oceanfront vacation-style home, located on the
     Pacific Coast of Southern California, has a Gourmet Kitchen, Home Theater,
-    Rec Room, Sauna and Steam Room, and an rooftop pool with a View.
+    Rec Room, Sauna and Steam Room, and an Rooftop Pool with a View.
   metatitle: Amenities at the Santa Barbara Beach Club - A Luxury Vacation Rental Property
 ---
 The Santa Barbara Beach Club...nothing short of spectacular.
@@ -16,7 +16,7 @@ Everything you can imagine in one house for large or multiple families.
 
 The views of the Ocean, Channel Islands and Mountains are unsurpassed.
 
-This property boasts an incredible Ocean View Master with paneled Library stocked with NY Times Best Sellers and four Ocean View Suites that open up to the amazing scenic Observation and Pool Deck. This deck has an rooftop pool, a ten seat Hot Tub, fireplace and an outdoor LCD TV to watch the game. The oversized ground level decks and fire pit provide for outdoor dining and entertaining areas that take advantage of the spectacular views.
+This property boasts an incredible Ocean View Master with paneled Library stocked with NY Times Best Sellers and four Ocean View Suites that open up to the amazing scenic Observation and Pool Deck. This deck has an Rooftop Pool, a ten seat Hot Tub, fireplace and an outdoor LCD TV to watch the game. The oversized ground level decks and fire pit provide for outdoor dining and entertaining areas that take advantage of the spectacular views.
 
 Along with the Master and Library, a gourmet Kitchen and Architectural Digest Living Room grace the ground floor. The Cannery Row themed underground entertainment level has a wine cellar, a walk in humidor, a formal dining and meeting room accessed by dumb waiter from the kitchen above, a magnificent fully equipped bar with a view of the underground garage, 400 gallon Salt Water Shark and Eel Aquarium, Billiards, Arcade games, Pinball, a Life Fitness Gym, a Spa with Sauna and Steam rooms, a huge laundry center and a Theater, equipped by Home Theater Designer to the stars, Roberts Home Audio Video.
 
@@ -53,7 +53,7 @@ Lower Garage Viewing Window
 
 4 Ocean View Luxury Suites\
 Observation Deck w/ Dining\
-rooftop Pool w/ View\
+Rooftop Pool w/ View\
 Redwood Hot Tub w/ View\
 Fireplace\
 Outdoor LCD Television
